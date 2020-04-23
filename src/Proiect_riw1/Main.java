@@ -61,7 +61,7 @@ public class Main {
 			MainObj.readDataFromFile(intrare, writer2, file,cale, stopWords);//citire cuvinte din fisier + generare index <document, cuvant, aparitii>
 			
 			PrintWriter output = new PrintWriter(finalOutput);//generare fisier final de iesire
-			MainObj.IndirectIndex(iesire, output);//Numarare aparitie cuvinte
+			MainObj.IndirectIndex(iesire, output);//index indirect
 			indexFisier++;
 		}
 		PrintWriter fidf = new PrintWriter(finalIDF);
